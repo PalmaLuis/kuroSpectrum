@@ -1,0 +1,17 @@
+.main-layout {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--gradient-main); /* Color base */
+}
+
+.content-wrapper {
+  /* Espacio para la Navbar fija */
+  padding-top: 80px;
+  /* Asegura que el contenido sea visible */
+  position: relative;
+  z-index: 1;
+  /* Estilo general para el contenido */
+  color: #f0f0f0;
+  padding-left: 20px;
+  padding-right: 20px;
+}

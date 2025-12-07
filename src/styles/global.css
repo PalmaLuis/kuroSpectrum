@@ -1,0 +1,38 @@
+:root {
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  --color-black-primary-500: #2a2a2e;
+  --color-black-secondary-500: #0d0d0d;
+  --color-black-primary-400: #474749;
+
+  --color-blue-primary-500: #00d4ff;
+  --color-blue-secondary-500: #5be9ff;
+
+  --color-fuccia-primary-500: #e04cff;
+
+  --color-green-primary-500: #00ff66;
+
+  --color-white-primary-500: #f4f4f6;
+
+  --gradient-main: linear-gradient(
+    178deg,
+    rgba(42, 42, 46, 1) 0%,
+    rgba(91, 233, 255, 1) 100%
+  );
+
+  --gradient-text-404: linear-gradient(
+    179deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(91, 233, 255, 1) 100%
+  );
+
+  --gradient-button-default: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(249, 249, 249, 1) 100%
+  );
+
+  --font-family-orbitron: "Orbitron", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-fira-code: "Fira Code", Helvetica;
+}

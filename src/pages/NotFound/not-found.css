@@ -1,0 +1,67 @@
+.textWrapper {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background: var(--gradient-text-404);
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-family-orbitron);
+  font-size: 730px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subText {
+  font-family: var(--font-family-orbitron);
+  font-size: 64px;
+  font-weight: bold;
+  color: var(--color-black-primary-500);
+  text-align: center;
+}
+
+.descText {
+  font-family: var(--font-family-montserrat);
+  font-size: 36px;
+  font-weight: regular;
+  color: var(--color-black-primary-400);
+  text-align: center;
+}
+
+.img {
+  object-fit: cover;
+  position: absolute;
+}
+
+.notFoundPage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapperDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.buttonDefault {
+  padding: 16px;
+  width: max-content;
+  border-radius: 16px;
+  font-size: 24px;
+  font-family: var(--font-family-montserrat);
+  font-weight: 600;
+  color: var(--color-black-primary-500);
+  background: var(--gradient-button-default);
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+}
