@@ -8,6 +8,7 @@
   font-size: 730px;
   font-weight: bold;
   text-align: center;
+  line-height: 95%;
 }
 
 .subText {
@@ -29,6 +30,9 @@
 .img {
   object-fit: cover;
   position: absolute;
+  top: 1%;
+  width: 720px;
+  height: auto;
 }
 
 .notFoundPage {

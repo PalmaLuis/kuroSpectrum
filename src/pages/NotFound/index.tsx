@@ -1,7 +1,7 @@
 import "./not-found.css";
-// import bytePet from "@assets/byte-cat.gif";
-import bytePet from "@assets/cat.png";
+import bytePet from "@assets/byte-cat00.gif";
 import iconBack from "@assets/icon-back.svg";
+import lit from "../../literals.json";
 
 const NotFound = () => {
   return (
@@ -10,8 +10,8 @@ const NotFound = () => {
       <img src={bytePet} alt="Byte Pet" className="img" />
       <div className="wrapperDesc">
         <div className="wrapperText">
-          <p className="subText">Opps, creo que nos perdimos.</p>
-          <p className="descText">Regresemos a un lugar familiar</p>
+          <p className="subText">{lit.notFoundPage.subText}</p>
+          <p className="descText">{lit.notFoundPage.descText}</p>
         </div>
         <button className="buttonDefault">
           <img src={iconBack} alt="Back Icon" />
